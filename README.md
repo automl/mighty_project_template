@@ -24,4 +24,4 @@ This repository has:
 - The full set of Mighty config files
 - A basic runscript & plotting setup
 
-This way you should be able to implement your extensions and run your experiments immediately.
+This way you should be able to implement your extensions and run your experiments immediately. Also check out the Makefile and adjust it to your needs. Currently it features install, format and check commands you can customize and extend.

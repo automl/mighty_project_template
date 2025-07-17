@@ -1,0 +1,1 @@
+python mighty_project/run_mighty.py --config-name=base environment=puffer_minigrid algorithm=ppo seed=0,1,2,3,4 -m

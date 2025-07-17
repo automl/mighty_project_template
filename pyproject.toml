@@ -1,5 +1,5 @@
 [project]
-name = "mighty_domain_randomization"
+name = "mighty_project"
 version = "0.1.0"
 dependencies = [
   "typing_extensions", # Better typing
@@ -7,8 +7,6 @@ dependencies = [
   "hydra-core",
   "hydra-submitit-launcher",
   "hydra_colorlog",
-  "syllabus-rl",
-  "minigrid",
   "gymnasium==0.29.1",
   "mighty-rl",
   "rliable",
@@ -46,7 +44,7 @@ markers = ["example: An example"]
 
 [tool.coverage.run]
 branch = true
-include = ["mighty_domain_randomization"]
+include = ["mighty_project"]
 
 [tool.coverage.report]
 show_missing = true
@@ -208,8 +206,8 @@ max-args = 10 # Changed from default of 5
 
 [tool.mypy]
 python_version = "3.11"
-packages = ["mighty_domain_randomization", "tests"]
-exclude = ["mighty_domain_randomization/plotting.py"]
+packages = ["mighty_project", "tests"]
+exclude = ["mighty_project/plotting.py"]
 show_error_codes = true
 
 warn_unused_configs = true # warn about unused [tool.mypy] lines

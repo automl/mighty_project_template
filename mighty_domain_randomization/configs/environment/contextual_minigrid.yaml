@@ -1,7 +1,0 @@
-# @package _global_
-
-num_steps: 1e5
-env: MiniGrid-LavaGapS5-v0
-env_kwargs: {}
-env_wrappers: [mighty_domain_randomization.env_task_wrappers.VecMinigridTaskWrapper]
-num_envs: 64
